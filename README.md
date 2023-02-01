@@ -22,6 +22,7 @@ cd QRGen
 ```
 ruby QRGen.py -h
 ```
+
 #### Usage
 ```
  ██████╗ ██████╗  ██████╗ ███████╗███╗   ██╗
@@ -34,4 +35,12 @@ Usage: ruby qrcode.rb [options]
     -d, --data DATA                  Data to encode in the QR code
     -o, --output FILE                Output file name
     -p, --print                      Print QR code in the terminal
+```
+
+#### Sample Usage
+```
+ruby QRGen.rb -d test -o qr.png
+```
+```
+ruby QRGen.rb -d test -o qr.png -p / --print
 ```
